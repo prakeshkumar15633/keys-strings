@@ -3,7 +3,7 @@ import './Footer.css'
 
 function Footer() {
     return (
-        <div className='text-center p-2 myfooter text-primary' style={{backgroundColor:'#AFAFAF',fontSize:'1.3rem'}}>
+        <div className='text-center p-2 myfooter text-primary' style={{backgroundColor:'black',fontSize:'1.3rem'}}>
             Footer
         </div>
     )

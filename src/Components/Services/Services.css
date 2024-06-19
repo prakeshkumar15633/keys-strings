@@ -1,0 +1,124 @@
+/* src/components/ServicePage.css
+.service-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav .faq {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.hero {
+    display: flex;
+    padding: 40px;
+    background-color: #f5deb3;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.hero-text button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    padding: 40px;
+}
+
+.content-left,
+.content-right {
+    flex: 1;
+    padding: 20px;
+}
+
+.feature {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.feature h2 {
+    font-size: 24px;
+}
+
+.feature ul {
+    list-style: none;
+    padding: 0;
+}
+
+.feature ul li {
+    margin: 10px 0;
+}
+
+.content-right h3 {
+    font-size: 20px;
+    color: #999;
+}
+
+.content-right h2 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.content-right p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.content-right button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */

@@ -11,6 +11,10 @@ function Navbar() {
             to: ''
         },
         {
+            text:'Services',
+            to: 'services'
+        },
+        {
             text:'Aboutus',
             to: 'aboutus'
         },
@@ -19,16 +23,12 @@ function Navbar() {
             to: 'gallery'
         },
         {
-            text:'Services',
-            to: 'services'
-        },
-        {
             text: 'Contactus',
             to: 'contactus'
         }
     ]
     return (
-            <div className='row header-element' style={{backgroundColor:'#AFAFAF'}}>
+            <div className='row header-element bg-black'>
                 <div className='d-flex justify-content-end p-2'>
                     <ul className="nav text-center" style={{ fontSize: '1.3rem' }}>
                         {menuOptions.map((ele) => {
