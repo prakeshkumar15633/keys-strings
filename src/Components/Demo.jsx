@@ -16,7 +16,7 @@ function Demo() {
             errorElement: <ErrorRoute />,
             children:[
                 {
-                    path:'home',
+                    path:'',
                     element:<Home/>
                 },
                 {
