@@ -6,16 +6,17 @@ import AboutUs from "./AboutUs/AboutUs";
 import Gallery from "./Gallery/Gallery";
 import ContactUs from "./ContactUs/ContactUs";
 import Services from "./Services/Services";
+import ServicePage from "./Services/Service";
 
 function Demo() {
     let router = createBrowserRouter([
         {
-            path: '',
+            path: 'keys-strings',
             element: <RootLayout />,
             errorElement: <ErrorRoute />,
             children:[
                 {
-                    path:'',
+                    path:'home',
                     element:<Home/>
                 },
                 {
@@ -31,7 +32,12 @@ function Demo() {
                 {
                     path:'services',
                     element:<Services/>,
-
+                    children:[
+                        {
+                            path:'explore',
+                            element:<ServicePage/>
+                        }
+                    ]
                 },
                 {
                     path:'contactus',
