@@ -109,15 +109,6 @@ const FooterWrapper = styled.div`
 const ServicePage = () => {
     return (
       <Container>
-        <HeaderWrapper>
-          <h1>Music Lessons</h1>
-          <Nav>
-            <a href="/">Home</a>
-            <a href="/about">About Us</a>
-            <a href="/services">Services</a>
-            <a href="/contact">Contact Us</a>
-          </Nav>
-        </HeaderWrapper>
   
         <HeroSectionWrapper>
           <h1>Discover the Joy of Music</h1>
