@@ -31,8 +31,8 @@ const ContactForm = () => {
     }, 100);
     return (
         <div>
-            <div className='row'>
-                <div className='col mt-5 ms-5'>
+            <div className='col-sm-8 col-md-6 col-md-4 bg-light border border-1 rounded-3 d-block mx-auto m-5'>
+                <div className='mt-5 p-3'>
                     <h1 className='mb-5'>Contact Us</h1>
                     <div className='mb-5'>
                         <form ref={form} className="mx-auto" onSubmit={handleSubmit(handleFormSubmit)}>
@@ -132,13 +132,7 @@ const ContactForm = () => {
                         </div>
                     </div>
                 </div>
-                {!width&&<div className="col">
-                    <img className='d-block mx-auto' src={img} style={{ height: '100%', marginTp: '20%' }} />
-                </div>}
             </div>
-            {width && <div>
-                <img className='d-block mx-auto' src={img} style={{ height: '100%',maxWidth:'100%', marginTp: '20%' }} />
-            </div>}
         </div>
     );
 };
