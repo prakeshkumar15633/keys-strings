@@ -35,14 +35,14 @@ function Navbar() {
             icon: <MdHomeRepairService style={{ fontSize: '30px' }} />,
         },
         {
-            text: 'Aboutus',
-            to: 'aboutus',
-            icon: <MdInsertPhoto style={{ fontSize: '30px' }} />
-        },
-        {
             text: 'Gallery',
             to: 'gallery',
             icon: <IoIosPeople style={{ fontSize: '30px' }} />,
+        },
+        {
+            text: 'Aboutus',
+            to: 'aboutus',
+            icon: <MdInsertPhoto style={{ fontSize: '30px' }} />
         },
         {
             text: 'Contactus',

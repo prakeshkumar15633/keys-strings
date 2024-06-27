@@ -75,7 +75,7 @@ const AboutUs = () => {
                 </div>
             </div>
 
-            <div className='container py-5'>
+            {/* <div className='container py-5'>
                 <div className='row'>
                     <div className='col-md-6'>
                         <h1 className='heading'>Unleash Your Musical</h1>
@@ -116,7 +116,7 @@ const AboutUs = () => {
                     </div>
                 </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className='container py-5'>
                 <div className='row'>
