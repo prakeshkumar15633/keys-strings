@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom'; 
 import 'bootstrap/dist/css/bootstrap.css';
 import img1 from '../../Assets/img1.png';
 import img2 from '../../Assets/img2.png';
@@ -22,29 +22,34 @@ function Home() {
                 </div>
                 <div className="col-lg-6 col-md-12 text-center text-lg-start px-4">
                     <h1 className="display-6 fw-bold mb-3">Unleash the Artistry of Our Musician</h1>
-                    <p className="lead mb-4 text-muted">
+                    <p className="lead mb-4 text-muted" style={{ textAlign: 'justify' }}>
                         From soulful ballads to upbeat melodies, our musician captivates audiences 
                         with a diverse repertoire that showcases their exceptional musical talent.
                     </p>
-                    <p className="lead mb-4 text-muted">
+                    <p className="lead mb-4 text-muted" style={{ textAlign: 'justify' }}>
                         Witness the virtuosity of our musician's performances as they blend intricate guitar work with expressive vocal prowess. Their music transcends genres and brings an unparalleled richness to every note.
                     </p>
-                    <p className="lead mb-4 text-muted">
+                    <p className="lead mb-4 text-muted" style={{ textAlign: 'justify' }}>
                         Dive into the enchanting world of melodies and harmonies created by our artist, and let their music take you on a journey of emotion and imagination.
                     </p>
-                    <div className="d-flex justify-content-center justify-content-lg-start gap-3">
-                        <a href="gallery" className="btn btn-dark btn-sm rounded-pill">
+                    {/* <div className="d-flex justify-content-center justify-content-lg-start gap-3">
+                        <Link to="/gallery" className="btn btn-dark btn-sm rounded-pill">
                             Explore the World of Our Musician
-                        </a>
-                    </div>
+                        </Link>
+                        <Link to="/gallery" className="btn btn-dark btn-sm rounded-pill">
+                            Explore the Captivating World
+                        </Link>
+                        <Link to="/gallery" className="btn btn-dark btn-sm rounded-pill">
+                            Witness the Captivating Artistry
+                        </Link>
+                    </div> */}
                 </div>
             </div>
 
             <div className="row align-items-center px-4 mb-5">
                 <div className="col-lg-8 col-md-12 text-center text-lg-start px-4">
                     <h2 className="display-6 fw-bold mb-3 mt-5">Elevate Your Senses and Immerse Yourself in the Captivating World of Music</h2>
-                    <h3 className="fw-bold mb-3">Discover the Virtuosity of Our Musician</h3>
-                    <p className="lead mb-4 text-muted">
+                    <p className="lead mb-4 text-muted" style={{ textAlign: 'justify' }}>
                         Prepare to be transported by the emotive performances of our musician.
                     </p>
                     <div className="d-flex justify-content-center justify-content-lg-start gap-3 mb-4">
@@ -73,11 +78,6 @@ function Home() {
                             />
                         </div>
                     </div>
-                    <div className="d-flex justify-content-center justify-content-lg-start">
-                        <a href="gallery" className="btn btn-dark btn-sm rounded-pill">
-                            Witness the Captivating Artistry of Our Musician
-                        </a>
-                    </div>
                 </div>
                 <div className="col-lg-3 col-md-12 text-center mb-4 mb-lg-0">
                     <img 
@@ -94,10 +94,10 @@ function Home() {
                     <div className="row">
                         <div className="col-lg-8">
                             <h2 className="display-5 fw-bold mb-4">Embark on a Musical Journey with Our Musician</h2>
-                            <p className="lead mb-4">
+                            <p className="lead mb-4" style={{ textAlign: 'justify' }}>
                                 Prepare to be captivated by the virtuosic and emotive performances of our musician, whose mastery of both guitar and piano creates a truly spellbinding experience that transports audiences to new musical heights.
                             </p>
-                            <p className="lead mb-4">
+                            <p className="lead mb-4" style={{ textAlign: 'justify' }}>
                                 From soulful ballads to upbeat melodies, our musician captivates audiences with a diverse repertoire that showcases their talent.
                             </p>
                         </div>
@@ -108,7 +108,7 @@ function Home() {
                                     <div className="card-body">
                                         <h5 className="card-title">Discover the Captivating</h5>
                                         <p className="card-text">Witness the virtuosity of our talented musician.</p>
-                                        <a href="#" className="btn btn-primary">Explore the Captivating World</a>
+                                        <Link to="/gallery" className="btn btn-primary">Explore the Captivating World</Link>
                                     </div>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@ function Home() {
                                     <div className="card-body">
                                         <h5 className="card-title">Immerse Yourself in the Mesmerizing</h5>
                                         <p className="card-text">Prepare to be transported by the seamless fusion of guitar and piano.</p>
-                                        <a href="#" className="btn btn-primary">Witness the Captivating Artistry</a>
+                                        <Link to="/gallery" className="btn btn-primary">Witness the Captivating Artistry</Link>
                                     </div>
                                 </div>
                             </div>
@@ -169,60 +169,24 @@ function Home() {
                     <div className="col-md-4">
                         <div className="card h-100 shadow-sm">
                             <div className="card-body">
-                                <h5 className="card-title">John Doe</h5>
-                                <p className="card-text">"An absolutely mesmerizing performance! The musician's talent and passion for music truly shine through in every note."</p>
+                                <h5 className="card-title">A.R. Rahman</h5>
+                                <p className="card-text">"An absolutely mesmerizing performance! The musician's talent and passion for music truly shine through in every note. Their ability to convey deep emotions through their music is unparalleled."</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="card h-100 shadow-sm">
                             <div className="card-body">
-                                <h5 className="card-title">Jane Smith</h5>
-                                <p className="card-text">"A journey of pure musical bliss. The blend of guitar and piano was simply magical, leaving the audience in awe."</p>
+                                <h5 className="card-title">Shreya Ghoshal</h5>
+                                <p className="card-text">"A journey of pure musical bliss. The blend of guitar and piano was simply magical, leaving the audience in awe. The musical nuances and the heartfelt delivery of each performance are captivating."</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="card h-100 shadow-sm">
                             <div className="card-body">
-                                <h5 className="card-title">Alex Johnson</h5>
-                                <p className="card-text">"A truly captivating experience. The musician's versatility and emotional depth in their performances are unparalleled."</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="container my-5">
-                <h2 className="display-6 fw-bold mb-4 text-center">Upcoming Events</h2>
-                <div className="row">
-                    <div className="col-md-4">
-                        <div className="card h-100 shadow-sm">
-                            <div className="card-body">
-                                <h5 className="card-title">Event Title 1</h5>
-                                <p className="card-text">Join us for an evening of live music at the grand concert hall.</p>
-                                <p className="card-text"><small className="text-muted">Date: June 25, 2024</small></p>
-                                <a href="#" className="btn btn-dark btn-sm rounded-pill">Get Tickets</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="card h-100 shadow-sm">
-                            <div className="card-body">
-                                <h5 className="card-title">Event Title 2</h5>
-                                <p className="card-text">Experience a night of soulful ballads and upbeat melodies.</p>
-                                <p className="card-text"><small className="text-muted">Date: July 10, 2024</small></p>
-                                <a href="#" className="btn btn-dark btn-sm rounded-pill">Get Tickets</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="card h-100 shadow-sm">
-                            <div className="card-body">
-                                <h5 className="card-title">Event Title 3</h5>
-                                <p className="card-text">A special live performance featuring new unreleased tracks.</p>
-                                <p className="card-text"><small className="text-muted">Date: August 15, 2024</small></p>
-                                <a href="#" className="btn btn-dark btn-sm rounded-pill">Get Tickets</a>
+                                <h5 className="card-title">Arijit Singh</h5>
+                                <p className="card-text">"A truly captivating experience. The musician's versatility and emotional depth in their performances are unparalleled. Each song resonates deeply and leaves a lasting impression."</p>
                             </div>
                         </div>
                     </div>
