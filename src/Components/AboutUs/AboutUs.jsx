@@ -14,10 +14,10 @@ const AboutUs = () => {
     let navigate = useNavigate();
     return (
         <div style={{ backgroundColor: '#FFF7E6' }}>
-            <div className='container py-5'>
+            <div className='container pt-5'>
                 <div className='row align-items-center'>
                     <div className='col-md-7'>
-                        <h1 className='heading text-center fw-lighter' style={{ fontSize: '4rem' }}>Meet Our Talented Instructors</h1>
+                        <h1 className='heading text-center fw-lighter fs-1' style={{ fontSize: '4rem' }}>Meet Our Talented Instructors</h1>
                         <p className='text-secondary'>We are a team of passionate musicians dedicated to sharing our love of music with aspiring guitarists and pianists. With years of experience and a deep understanding of music theory and performance, we've helped countless students of all ages and skill levels unlock their potential.</p>
                         <button className='btn btn-dark mb-3' onClick={() => navigate('/keys-strings/contactus')} style={{ paddingLeft: '20px', paddingRight: '20px' }}>Discover Your Musical Journey</button>
                     </div>
@@ -27,13 +27,13 @@ const AboutUs = () => {
                 </div>
             </div>
 
-            <div className='container py-5'>
+            <div className='container pt-5'>
                 <div className='row'>
                     <div className='col-lg-6'>
-                        <h1 className='heading text-center fw-lighter' style={{ fontSize: '4rem' }}>Unlock Your Musical Potential With Us</h1>
+                        <h1 className='heading text-center fw-lighter fs-1' style={{ fontSize: '4rem' }}>Unlock Your Potential With Us</h1>
                         <div className='m-4 p-4 bg-dark text-white rounded-3'>
                             <p>We Are Passionate Musicians</p>
-                            <h2 className='heading text-center' style={{ fontSize: '3rem' }}><p>Dedicated to </p><p>Sharing Our Skill</p></h2>
+                            <h2 className='heading text-center fs-2' style={{ fontSize: '3rem' }}><p>Dedicated to </p><p>Sharing Our Skill</p></h2>
                             <p>At our music school, we believe that everyone has the ability to become a skilled musician. Our experienced instructors are committed to guiding you through a personalized learning journey</p>
                             <p>Unlock Your Musical Potential Today</p>
                         </div>
@@ -50,8 +50,7 @@ const AboutUs = () => {
                                 </div>
                             </div>
                             <div className='bg-white m-3 p-3 rounded-2'>
-                                <p>Unlock Your Musical Potential</p>
-                                <h3 className='heading'>Discover Your</h3>
+                                <h3 className='heading'>Discover Your Potential</h3>
                                 <p>At our music school, we understand that every student is unique, with their own learning style, goals, and aspirations. That's why we take a personalized approach to teaching</p>
                             </div>
                         </div>
@@ -63,12 +62,12 @@ const AboutUs = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-8'>
-                            <h1 className='heading' style={{ fontSize: '4rem' }}>Embark on Your Transformation</h1>
+                            <h1 className='heading fs-1' style={{ fontSize: '4rem' }}>Embark on Your Transformation</h1>
                             <p>Our music school has been inspiring and empowering aspiring musicians for over a decade. Founded by a team of passionate musicians, we have dedicated ourselves to creating a nurturing and supportive environment where students of all ages and skill levels can unlock their musical potential</p>
                             <p>Unlock Your Musical Potential Today</p>
                         </div>
                         <div className='col-lg-4'>
-                            <h4>Discover Your Musical Passion</h4>
+                            <h4 className='heading fs-1'>Discover Your Musical Passion</h4>
                             <p>Embrace the power<br />of music at Our studio</p>
                         </div>
                     </div>
@@ -122,17 +121,17 @@ const AboutUs = () => {
                 <div className='row'>
                     <div className='col-md-4 mb-4'>
                         <img className='img-fluid' src={img6} alt="Music" />
-                        <h3 className='heading p-2'>Discover the Joy of Music at Our Acclaimed School</h3>
+                        <h3 className='heading p-2'>Discover the Joy of Music</h3>
                         <p>Unlock Your Musical Potential with our Experienced Instructors</p>
                     </div>
                     <div className='col-md-4 mb-4'>
                         <img className='img-fluid' src={img7} alt="Music" />
-                        <h3 className='heading p-2'>Embrace the Power of Music at Our Acclaimed School</h3>
+                        <h3 className='heading p-2'>Embrace the Power of Music</h3>
                         <p>Unleash Your Musical Talents with Our Guidance</p>
                     </div>
                     <div className='col-md-4 mb-4'>
                         <img className='img-fluid' src={img8} alt="Music" />
-                        <h3 className='heading p-2'>Explore the Art of Music at Our Renowned School</h3>
+                        <h3 className='heading p-2'>Explore the Art of Music</h3>
                         <p>Cultivate Your Musical Passion with Our Support</p>
                     </div>
                 </div>

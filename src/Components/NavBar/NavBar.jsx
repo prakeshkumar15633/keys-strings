@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import logocropped from '../../Assets/logo-cropped.jpg'
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
@@ -65,7 +66,12 @@ function Navbar() {
     return (
         <div>
             {dropDownFlag&&<div className='row header-element bg-black'>
-                <div className='d-flex justify-content-end p-2'>
+                <div className='col-4'>
+                    <div className='p-2'>
+                        <img className='rounded-3' style={{height:'4rem'}} src={logocropped}/>
+                    </div>
+                </div>
+                <div className='col-8 d-flex justify-content-end p-2'>
                     <ul className="nav text-center" style={{ fontSize: '1.3rem' }}>
                         {menuOptions.map((ele) => {
                             return (<li className="nav-item li">
@@ -78,8 +84,13 @@ function Navbar() {
                 </div>
             </div>}
             {!dropDownFlag && <div>
-                <div className='row navbar-menu-container'>
-                    <div className='bg-black'>
+                <div className='row bg-black navbar-menu-container'>
+                    <div className='col'>
+                        <div className='p-2'>
+                            <img className='w-100 rounded-2' src={logocropped}/>
+                        </div>
+                    </div>
+                    <div className='col d-flex justify-content-end'>
                         <HiOutlineBars3 style={{ color: 'white', fontSize: '30px', margin: '20px' }} onClick={() => setOpenMenu(true)} />
                     </div>
                 </div>
