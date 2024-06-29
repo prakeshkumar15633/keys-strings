@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom'; 
 import 'bootstrap/dist/css/bootstrap.css';
 import img1 from '../../Assets/img1.png';
@@ -23,32 +24,14 @@ function Home() {
                 <div className="col-lg-6 col-md-12 text-center text-lg-start px-4">
                     <h1 className="display-6 fw-bold mb-3">Unleash the Artistry of Our Musician</h1>
                     <p className="lead mb-4 text-muted" style={{ textAlign: 'justify' }}>
-                        From soulful ballads to upbeat melodies, our musician captivates audiences 
-                        with a diverse repertoire that showcases their exceptional musical talent.
-                    </p>
-                    <p className="lead mb-4 text-muted" style={{ textAlign: 'justify' }}>
-                        Witness the virtuosity of our musician's performances as they blend intricate guitar work with expressive vocal prowess. Their music transcends genres and brings an unparalleled richness to every note.
-                    </p>
-                    <p className="lead mb-4 text-muted" style={{ textAlign: 'justify' }}>
                         Dive into the enchanting world of melodies and harmonies created by our artist, and let their music take you on a journey of emotion and imagination.
                     </p>
-                    {/* <div className="d-flex justify-content-center justify-content-lg-start gap-3">
-                        <Link to="/gallery" className="btn btn-dark btn-sm rounded-pill">
-                            Explore the World of Our Musician
-                        </Link>
-                        <Link to="/gallery" className="btn btn-dark btn-sm rounded-pill">
-                            Explore the Captivating World
-                        </Link>
-                        <Link to="/gallery" className="btn btn-dark btn-sm rounded-pill">
-                            Witness the Captivating Artistry
-                        </Link>
-                    </div> */}
                 </div>
             </div>
 
             <div className="row align-items-center px-4 mb-5">
                 <div className="col-lg-8 col-md-12 text-center text-lg-start px-4">
-                    <h2 className="display-6 fw-bold mb-3 mt-5">Elevate Your Senses and Immerse Yourself in the Captivating World of Music</h2>
+                    <h2 className="display-6 fw-bold mb-3 mt-5">Immerse in the World of Music</h2>
                     <p className="lead mb-4 text-muted" style={{ textAlign: 'justify' }}>
                         Prepare to be transported by the emotive performances of our musician.
                     </p>
@@ -105,20 +88,20 @@ function Home() {
                             <div className="mb-4 w-100">
                                 <div className="card h-100 shadow-lg">
                                     <img src={smallImg1} className="card-img-top" alt="Small Image 1" />
-                                    <div className="card-body">
+                                    <div className="card-body text-center">
                                         <h5 className="card-title">Discover the Captivating</h5>
                                         <p className="card-text">Witness the virtuosity of our talented musician.</p>
-                                        <Link to="/gallery" className="btn btn-primary">Explore the Captivating World</Link>
+                                        <Link to="/gallery" className="btn btn-dark">Explore the Captivating World</Link>
                                     </div>
                                 </div>
                             </div>
                             <div className="w-100">
                                 <div className="card h-100 shadow-lg">
                                     <img src={smallImg2} className="card-img-top" alt="Small Image 2" />
-                                    <div className="card-body">
+                                    <div className="card-body text-center">
                                         <h5 className="card-title">Immerse Yourself in the Mesmerizing</h5>
                                         <p className="card-text">Prepare to be transported by the seamless fusion of guitar and piano.</p>
-                                        <Link to="/gallery" className="btn btn-primary">Witness the Captivating Artistry</Link>
+                                        <Link to="/gallery" className="btn btn-dark">Witness the Captivating Artistry</Link>
                                     </div>
                                 </div>
                             </div>
@@ -133,7 +116,7 @@ function Home() {
                     <div className="col-md-4">
                         <div className="card h-100 shadow-sm">
                             <img src={img2} className="card-img-top" alt="Release 1" />
-                            <div className="card-body">
+                            <div className="card-body text-center">
                                 <h5 className="card-title">Album Title 1</h5>
                                 <p className="card-text">A brief description of the latest release, highlighting the unique aspects of the music.</p>
                                 <a href="#" className="btn btn-dark btn-sm rounded-pill">Listen Now</a>
@@ -143,7 +126,7 @@ function Home() {
                     <div className="col-md-4">
                         <div className="card h-100 shadow-sm">
                             <img src={img3} className="card-img-top" alt="Release 2" />
-                            <div className="card-body">
+                            <div className="card-body text-center">
                                 <h5 className="card-title">Album Title 2</h5>
                                 <p className="card-text">A brief description of the latest release, highlighting the unique aspects of the music.</p>
                                 <a href="#" className="btn btn-dark btn-sm rounded-pill">Listen Now</a>
@@ -153,7 +136,7 @@ function Home() {
                     <div className="col-md-4">
                         <div className="card h-100 shadow-sm">
                             <img src={img4} className="card-img-top" alt="Release 3" />
-                            <div className="card-body">
+                            <div className="card-body text-center">
                                 <h5 className="card-title">Album Title 3</h5>
                                 <p className="card-text">A brief description of the latest release, highlighting the unique aspects of the music.</p>
                                 <a href="#" className="btn btn-dark btn-sm rounded-pill">Listen Now</a>
@@ -168,7 +151,7 @@ function Home() {
                 <div className="row">
                     <div className="col-md-4">
                         <div className="card h-100 shadow-sm">
-                            <div className="card-body">
+                            <div className="card-body text-center">
                                 <h5 className="card-title">A.R. Rahman</h5>
                                 <p className="card-text">"An absolutely mesmerizing performance! The musician's talent and passion for music truly shine through in every note. Their ability to convey deep emotions through their music is unparalleled."</p>
                             </div>
@@ -176,7 +159,7 @@ function Home() {
                     </div>
                     <div className="col-md-4">
                         <div className="card h-100 shadow-sm">
-                            <div className="card-body">
+                            <div className="card-body text-center">
                                 <h5 className="card-title">Shreya Ghoshal</h5>
                                 <p className="card-text">"A journey of pure musical bliss. The blend of guitar and piano was simply magical, leaving the audience in awe. The musical nuances and the heartfelt delivery of each performance are captivating."</p>
                             </div>
@@ -184,7 +167,7 @@ function Home() {
                     </div>
                     <div className="col-md-4">
                         <div className="card h-100 shadow-sm">
-                            <div className="card-body">
+                            <div className="card-body text-center">
                                 <h5 className="card-title">Arijit Singh</h5>
                                 <p className="card-text">"A truly captivating experience. The musician's versatility and emotional depth in their performances are unparalleled. Each song resonates deeply and leaves a lasting impression."</p>
                             </div>
